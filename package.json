@@ -1,0 +1,16 @@
+{
+  "name": "os-process-manager",
+  "version": "1.0.0",
+  "description": "Go Time!",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch . -e js,mjs,json,html,css --exec \"electron .\""
+  },
+  "author": "Jordan Renner",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^24.1.2",
+    "nodemon": "^2.0.22"
+  }
+}
